@@ -5,6 +5,7 @@
 using System;
 using System.IO;
 using MonoGame.Framework.Utilities;
+using System.IO;
 
 namespace Microsoft.Xna.Framework
 {
@@ -20,7 +21,8 @@ namespace Microsoft.Xna.Framework
                 Location = Path.Combine (AppDomain.CurrentDomain.BaseDirectory, "..", "Resources");
             if (!Directory.Exists (Location))
 #endif
-            Location = AppDomain.CurrentDomain.BaseDirectory;
+			
+            Location = Directory.GetCurrentDirectory(); // AppDomain.CurrentDomain.BaseDirectory;
 #endif
         }
 
