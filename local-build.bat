@@ -5,14 +5,12 @@ dotnet restore MonoGame.Framework/MonoGame.Framework.DesktopGL.csproj
 dotnet pack --include-source MonoGame.Framework/MonoGame.Framework.DesktopGL.csproj
 dotnet restore Tools/MonoGame.Effect.Compiler/MonoGame.Effect.Compiler.csproj
 dotnet pack --include-source Tools/MonoGame.Effect.Compiler/MonoGame.Effect.Compiler.csproj
-rem dotnet restore MonoGame.Framework.Content.Pipeline/MonoGame.Framework.Content.Pipeline.csproj
-rem dotnet pack --include-source MonoGame.Framework.Content.Pipeline/MonoGame.Framework.Content.Pipeline.csproj
-rem dotnet restore Tools/MonoGame.Content.Builder/MonoGame.Content.Builder.csproj
-rem dotnet pack --include-source Tools/MonoGame.Content.Builder/MonoGame.Content.Builder.csproj
-dotnet restore Tools/MonoGame.Effect.Compiler/MonoGame.Effect.Compiler.csproj
-dotnet pack --include-source Tools/MonoGame.Effect.Compiler/MonoGame.Effect.Compiler.csproj
-rem dotnet restore Tools/MonoGame.Content.Builder.Task/MonoGame.Content.Builder.Task.csproj
-rem dotnet pack --include-source Tools/MonoGame.Content.Builder.Task/MonoGame.Content.Builder.Task.csproj 
+dotnet restore MonoGame.Framework.Content.Pipeline/MonoGame.Framework.Content.Pipeline.csproj
+dotnet pack --include-source MonoGame.Framework.Content.Pipeline/MonoGame.Framework.Content.Pipeline.csproj
+dotnet restore Tools/MonoGame.Content.Builder/MonoGame.Content.Builder.csproj
+dotnet pack --include-source Tools/MonoGame.Content.Builder/MonoGame.Content.Builder.csproj
+dotnet restore Tools/MonoGame.Content.Builder.Task/MonoGame.Content.Builder.Task.csproj
+dotnet pack --include-source Tools/MonoGame.Content.Builder.Task/MonoGame.Content.Builder.Task.csproj 
 rem dotnet restore Tools/MonoGame.Packaging.Flatpak/MonoGame.Packaging.Flatpak.csproj
 rem dotnet pack --include-source Tools/MonoGame.Packaging.Flatpak/MonoGame.Packaging.Flatpak.csproj
 rem dotnet restore Tools/MonoGame.Content.Builder.Editor/MonoGame.Content.Builder.Editor.windows.csproj
