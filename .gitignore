@@ -91,3 +91,7 @@ IDE/MonoDevelop/MonoDevelop.MonoGame/templates/Common/MonoGame.Framework.dll.con
 # docfx
 _*
 .vscode
+
+# User projects
+Projects/
+Libraries/
